@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view>
+
+<defaultnode/>
+
+<defaultedge/>
+
+<node>
+   <type name="Int"/>
+   <type name="String"/>
+   <type name="Univ"/>
+   <type name="univ"/>
+   <type name="boolean/False"/>
+   <type name="boolean/True"/>
+   <type name="seq/Int"/>
+   <set name="$someTernaryRelation_r" type="M/Relation"/>
+</node>
+
+<node color="Blue">
+   <type name="M/RelationInstance"/>
+</node>
+
+<node color="Gray">
+   <type name="M/ModelInstance"/>
+</node>
+
+<node color="Green">
+   <type name="M/Atom"/>
+</node>
+
+<node shape="Ellipse" color="Blue">
+   <type name="M/Relation"/>
+</node>
+
+<node shape="Ellipse" color="Gray">
+   <type name="M/Model"/>
+</node>
+
+<node shape="Ellipse" color="Green">
+   <type name="M/Signature"/>
+</node>
+
+<node shape="Hexagon" color="Black">
+   <type name="M/Name"/>
+</node>
+
+<node visible="no">
+   <type name="boolean/Bool"/>
+</node>
+
+</view>
+
+</alloy>
