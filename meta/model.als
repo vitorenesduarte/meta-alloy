@@ -43,7 +43,7 @@ pred facts[r : Relation] {
 	let K = keys[r] |  K = range[min[K], max[K]] 
 
 	// * there's only one value for each key
-	all k : keys[r] | #(r.relation[k]) = 1
+	all k : keys[r] | one r.relation[k]
 }
 
 // INSTANCES
